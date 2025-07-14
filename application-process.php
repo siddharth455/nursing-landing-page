@@ -8,7 +8,7 @@
 <style>
   .right-panel {
     flex: 1;
-    max-width: 500px;
+    max-width: 400px;
     height: 400px;
     background: url('uploads/apply.webp') center/cover no-repeat;
     color: white;
