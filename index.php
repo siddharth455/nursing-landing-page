@@ -84,7 +84,7 @@ window.scrollTo({ top: y, behavior: 'smooth' });
     window.addEventListener('resize', relocateForm); // On resize
   });
 </script>
-
+<div class="container">
 <section>
   <h2>Guru Nanak College - Best BSc Nursing College in Dehradun, Uttarakhand</h2>
   <p>The Bachelor of Science in Nursing (BSc Nursing) is a four-year undergraduate degree that prepares students for a career in nursing, a vital component of the healthcare sector. This program offers comprehensive education and training in nursing and healthcare practices, focusing on patient care, health promotion, and disease prevention.</p>
@@ -142,6 +142,7 @@ window.scrollTo({ top: y, behavior: 'smooth' });
     </div>
   </div>
 </section>
+</div>
 </body>
 
 </html>
