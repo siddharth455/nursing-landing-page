@@ -9,10 +9,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         "FirstName" => $_POST['name'],
         "Email" => $_POST['email'],
         "MobileNumber" => $_POST['mobile'],
-        "LeadSource" => "1",
-        "leadCampaign" => "cbc_college",
-        "Course" => $_POST['course'],
-        "Center" => "1",
+        "LeadSource" => "220",
+        "leadCampaign" => "200",
+        "Location" => $_POST['location'],
     ];
     $response = extraaEdgePushBasicData($postData);
     $decodedResponse = json_decode($response, true);

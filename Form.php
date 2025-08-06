@@ -64,7 +64,7 @@
                 </div>
                 <div class="mb-4">
                     <label class="form-label">Select Course</label>
-                    <select class="form-select" name="course" required>
+                    <select class="form-select" name="location" required>
                         <option selected disabled>Select the course</option>
                         <option value="91">BSc Nursing</option>
                     </select>
