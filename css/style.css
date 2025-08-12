@@ -80,12 +80,15 @@ z-index: 1;
       /* Center the form in mobile view */
       max-width: 100%;
   }
-  
+  .about-gnc{
+    margin: 0 15px;
+  }
 }
   .hero-card p {
     color: #999;
     font-style: italic;
   }
+  
   .steps {
     background: #ffcc00;
     padding: 2rem;
@@ -145,13 +148,14 @@ gap: 1rem;
 
 /* Hide slider by default */
 .gallery-slider {
+  
 display: none;
 }
 
 /* Images styling */
 .footer-gallery img {
 width: 100%;
-height: 100px;
+height: 100%;
 object-fit: cover;
 border-radius: 8px;
 }

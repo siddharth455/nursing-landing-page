@@ -19,6 +19,12 @@ position: relative;
 gap: 2rem;
 color: white;
 }
+@media (max-width: 768px){
+  .hero {
+     height:104px
+  }
+  
+}
 
     </style>
 </head>
@@ -85,7 +91,7 @@ window.scrollTo({ top: y, behavior: 'smooth' });
   });
 </script>
 <div class="container">
-<section>
+<section class="about-gnc">
   <h2>Guru Nanak College - Best BSc Nursing College in Dehradun, Uttarakhand</h2>
   <p>The Bachelor of Science in Nursing (BSc Nursing) is a four-year undergraduate degree that prepares students for a career in nursing, a vital component of the healthcare sector. This program offers comprehensive education and training in nursing and healthcare practices, focusing on patient care, health promotion, and disease prevention.</p>
   <p>Over the course of the program, students gain in-depth knowledge in areas such as human anatomy, physiology, microbiology, and psychology. The curriculum also includes extensive clinical training, where students acquire hands-on experience in various healthcare settings. This practical component is crucial for developing skills in patient assessment, administering medications, managing patient care, and working collaboratively with other healthcare professionals.</p>
@@ -119,26 +125,26 @@ window.scrollTo({ top: y, behavior: 'smooth' });
 
   <section class="footer-gallery">
   <div class="gallery-grid">
-    <img src="https://via.placeholder.com/150x100" alt="img1">
-    <img src="https://via.placeholder.com/150x100" alt="img2">
-    <img src="https://via.placeholder.com/150x100" alt="img3">
-    <img src="https://via.placeholder.com/150x100" alt="img4">
-    <img src="https://via.placeholder.com/150x100" alt="img5">
-    <img src="https://via.placeholder.com/150x100" alt="img6">
-    <img src="https://via.placeholder.com/150x100" alt="img7">
-    <img src="https://via.placeholder.com/150x100" alt="img8">
+    <img src="uploads/campus-1.webp" alt="img1">
+    <img src="uploads/campus-2.webp" alt="img2">
+    <img src="uploads/campus-3.webp" alt="img3">
+    <img src="uploads/campus-4.webp" alt="img4">
+    <img src="uploads/campus-5.webp" alt="img5">
+    <img src="uploads/campus-6.webp" alt="img6">
+    <img src="uploads/campus-7.webp" alt="img7">
+    <img src="uploads/campus-8.webp" alt="img8">
   </div>
 
   <div class="gallery-slider">
     <div class="slider-track">
-      <img src="https://via.placeholder.com/150x100" alt="img1">
-      <img src="https://via.placeholder.com/150x100" alt="img2">
-      <img src="https://via.placeholder.com/150x100" alt="img3">
-      <img src="https://via.placeholder.com/150x100" alt="img4">
-      <img src="https://via.placeholder.com/150x100" alt="img5">
-      <img src="https://via.placeholder.com/150x100" alt="img6">
-      <img src="https://via.placeholder.com/150x100" alt="img7">
-      <img src="https://via.placeholder.com/150x100" alt="img8">
+    <img src="uploads/campus-1.webp" alt="img1">
+    <img src="uploads/campus-2.webp" alt="img2">
+    <img src="uploads/campus-3.webp" alt="img3">
+    <img src="uploads/campus-4.webp" alt="img4">
+    <img src="uploads/campus-5.webp" alt="img5">
+    <img src="uploads/campus-6.webp" alt="img6">
+    <img src="uploads/campus-7.webp" alt="img7">
+    <img src="uploads/campus-8.webp" alt="img8">
     </div>
   </div>
 </section>
